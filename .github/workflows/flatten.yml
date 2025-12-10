@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - development
+      - 1.x
   workflow_dispatch:
 
 concurrency:
